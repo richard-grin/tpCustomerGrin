@@ -9,6 +9,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 @Path("sample")
 public class SampleResource {
+    // Test GitHub
 
 	@Inject
 	@ConfigProperty(name = "message")
